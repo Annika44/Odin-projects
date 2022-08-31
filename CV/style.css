@@ -1,0 +1,94 @@
+body {
+    font-family: Calibri;
+    background-color: aliceblue;
+    padding: 40px 0px;
+}
+h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+h2 { 
+    font-size: 28px;
+}
+h3 {
+    margin-top: 5px;
+}
+.profile-picture {
+    width: 100px;
+    border-radius: 10px;
+    border-right: 20px;
+}
+.container {
+    box-shadow: 0 0 20px grey;
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+}
+section,
+header {
+    padding: 20px 60px 20px 60px;
+}
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+header ul {
+    list-style: none;
+}
+header li{
+    margin-bottom: 5px;
+}
+.tel {
+    width: 20px;
+    height: 20px;
+}
+.email {
+    width: 20px;
+    height: 20px;
+}
+.dom {
+    width: 20px;
+    height: 25px;
+}
+.pin {
+    width: 15px;
+    height: 25px;
+    margin-left: 3px;
+}
+header address img {
+    padding: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.hobbies {
+    list-style: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobbies img {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.hobbies li {
+    width: 50%;
+    display: flex;
+    margin-bottom: 40px;
+}
+.hobbies div {
+    margin-right: 20px;
+}
+.hobbies p {
+    color: gray;
+    line-height: 1.5;
+}
+span {
+    font-size: 25px;
+    color: gray;
+}
